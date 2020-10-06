@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import params from './src/params';
 
+import Field from './src/components/Field';
 
 const App = () => {
   return (
@@ -9,8 +10,10 @@ const App = () => {
       <View style={styles.container}>
         <Text style={styles.welcome}>Iniciando o Mines</Text>
         <Text style={styles.instructions}> 
-          Tamanho da grade: {params.getRowsAmount()} x {params.getColumnsAmount()}
+          Tamanho da grade: 
+          {params.getRowsAmount()} x {params.getColumnsAmount()}
         </Text>
+        <Field />
       </View>
     </>
   );
