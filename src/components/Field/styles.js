@@ -13,6 +13,19 @@ const styles = StyleSheet.create({
     borderTopColor: '#CCC',
     borderRightColor: '#333',
     borderBottomColor: '#333',
+  },
+  opened: {
+    backgroundColor: '#999',
+    borderTopColor: '#777',
+    borderLeftColor: '#777',
+    borderRightColor: '#777',
+    borderBottomColor: '#777',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  label: {
+    fontWeight: 'bold',
+    fontSize: params.fontSize,
   }
 });
 
